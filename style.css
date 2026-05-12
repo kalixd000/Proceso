@@ -5,6 +5,10 @@
     font-family: 'Times New Roman', Times, serif;
 
 }
+div1{
+    text-align: center;
+    font-size: 2rem;
+}
 body{
     line-height: 1.7;
     display: grid;
