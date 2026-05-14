@@ -9,200 +9,98 @@
 </head>
 
 <body>
+
     <header>
         <nav>
-            <div class="logo">Reporte</div>
+            <div class="logo">Experiencia</div>
             <ul class="nav-links">
                 <li><a href="https://kalixd000.github.io/Robotics/">inicio</a></li>
                 <li><a href="https://kalixd000.github.io/modelo/">Modelos</a></li>
-                <li><a href="https://kalixd000.github.io/Proceso/">Proceso</a></li>
+                <li><a href=" https://kalixd000.github.io/Proceso/">Proceso</a></li>
                 <li><a href="https://kalixd000.github.io/Continuidad/">Futuro</a></li>
-            </ul>
         </nav>
     </header>
-<div>
-    <img class="ig" src="https://raw.githubusercontent.com/kalixd000/Reporte/main/cecytebc_vertical.png">
-</div>
-    <div class="contenedor">
-        <p class="person">
-            <br><br>COLEGIO DE ESTUDIOS CIENTÍFICOS Y TECNOLÓGICOS DE BAJA CALIFORNIA
-        </p>
-        <p class="person">
-            PLANTEL PLAYAS DE TIJUANA<br><br>
-        </p>
-        <p class="f">
-            Reporte ROBOTIX FAIRE 25-26<br><br>
-        </p>
-        <p class="xr">
-            INCLUSEM<br><br>
-        </p>
-        <p class="l">
-            PRESENTA:<br><br>
-        </p>
-        <p class="person">
-            CARBAJAL DÍAZ, MARLENE YOLANDA<br>
-            BELTRÁN ROMO, JOVANI<br>
-            VILLAZANA VIZCARRA, BRYAN ISAAC<br>
-            BARRETO GARCÍA, JUVAL ALEJANDRO<br>
-            TRUJILLO ROMERO, DANIELA KALINA<br>
-            AYALA AMAYA, DIEGO ARMANDO<br>
-            GRUPO:
-        </p>
-        <p class="l">
-            4APGM<br><br><br><br><br><br>
-        </p>
-        <p>
-        TIJUANA BC 12 DE MAYO DE 2026<br><br><br><br><br><br>
-        </p>
+    <div>
+        <h3 class="Subtema">Experiencias Personales</h3>
+    </div>
+    <p2>
+        <br><br>En este aparto decidimos compartir experiencia personal de las tres partes, puesto a que este proyecto se dividió en tres
+        secciones; Maqueta, Circuito y Página web, siendo este último un extra que nos propusimos agregar para explicar más a
+        detalle la funcionalidad de cada parte en caso de que en el video no se entienda de manera clara para todo el
+        público.<br><br>
 
-        <p class="introduccion">
-            ÍNDICE<br><br>
-        </p>
+        Y como cada apartado tuvo su propia informacion, esta es la de "proceso", donde todos los participes que
+        tuvieron su grano de arena hablan sobrer su porpia experiencia personal.<br><br>
 
-        <p class="r">
+        -Jovani: Mi experiencia durante el proceso de este
+        proyecto fue algo interesante y nuevo ya que trabajamos utilizando herramientas que no habíamos visto antes y
+        en algunos momentos se me dificulto, pero gracias al equipo aprendí de ello y todo siguió adelanté. <br><br>
 
-            OBJETIVO.<br>
-            FUNDAMENTO<br>
-            TEÓRICO.<br>
-            MATERIAL Y EQUIPO<br>
-            PROCEDIMIENTO.<br>
-            ESQUEMA DEL CIRCUITO<br>
-            RESULTADOS Y MEDICIONES<br>
-            ANÁLISIS Y
-            DISCUSIÓN<br>
-            CONCLUSIÓN.<br>
+        -bryan: Mi
+        experiencia realizando este proyecto de robótica fue bastante positiva y
+        enriquecedora. Aunque en algunos momentos resultó un poco difícil, logramos organizarnos y superar cada reto que se presentó durante el proceso. Además, este proyecto
+        me permitió desarrollar nuevas habilidades, trabajar en equipo y aprender más sobre la tecnología y la robótica.
+        Sin duda, todo el esfuerzo, la dedicación y el tiempo invertido hicieron que la experiencia valiera
+        completamente la pena.<br><br>
 
-        </p>
-        <p class="introduccion">
-            Objetivo:<br><br>
-        </p>
-        <p>
-            El objetivo de este proyecto es construir un circuito para un sistema de cruce inteligente llamado Inclusem
-            que incluye dos semáforos integrados: uno vial con tres luces y uno peatonal con dos luces. Buscamos
-            automatizar el sistema para que, cuando el semáforo vial esté en verde y el sensor ultrasónico detecte a una
-            persona en el área de espera, la bocina del semáforo peatonal pite fuerte; si el semáforo vial pasa a
-            amarillo, el pitido disminuya su volumen como advertencia suave; y si cambia a rojo, el sistema no emita
-            sonido porque el peatón puede pasar seguro.<br><br>
-        </p>
-        <p class="introduccion">
-            Fundamento teórico<br><br>
-        </p>
-        <p>
-            Este proyecto junta dos semáforos en un mismo circuito controlado por una tarjeta programable que sincroniza
-            los tiempos de las luces vehiculares y peatonales. El sistema lee de forma continua la información de un
-            sensor ultrasónico para saber si hay un peatón presente en la zona de cruce.<br>
-            El sensor ultrasónico funciona
-            mandando ondas de sonido que rebotan en los objetos. Al detectar que una persona se encuentra parada en su
-            área de cobertura, el sensor le avisa a la tarjeta de control.<br>
-            La tarjeta no cambia el ritmo del pitido por
-            la distancia del peatón, sino que cambia la intensidad del volumen según el color del semáforo vial.
-            Mientras el usuario esté en el área de detección, el sistema generará un pitido fuerte si los carros tienen
-            el paso (luz verde vial), un pitido suave si están por detenerse (luz amarilla vial), o un silencio total si
-            los carros ya se pararon por completo (luz roja vial), avisando de forma clara cuándo es seguro bajar de la
-            acera.<br><br>
-        </p>
-        <p class="introduccion">
-            Material y equipo<br><br>
-        </p>
-        <p>
-            • 1 Tarjeta Arduino Uno (el cerebro del circuito)<br>
-            • 1 Sensor de distancia ultrasónico (HC-SR04)<br>
-            • 1 Zumbador o
-            bocina pequeña (Buzzer)<br>
-            • 3 Luces LED para el semáforo vial (Verde, Amarillo y Rojo)<br>
-            • 2 Luces LED para el
-            semáforo peatonal (Verde y Rojo)<br>
-            • 5 Resistencias (para proteger todos los LED del circuito)<br>
-            • 2 Tablillas de
-            conexiones (Protoboard)<br>
-            • Cables de diferentes colores para realizar las conexiones<br>
-            • 1 Batería de 9 voltios
-            con su adaptador<br><br>
-        </p>
-        <p class="introduccion">
-            Procedimiento<br><br>
-        </p>
-        <p>
-            1. Acomodamos la tarjeta Arduino y las dos tablillas protoboard en la mesa para empezar a armar los dos
-            semáforos.<br>
-            2. Conectamos los cables de voltaje y tierra desde el Arduino a las líneas laterales de las
-            tablillas para darles energía.<br>
-            3. Colocamos los 3 LED del semáforo vial (verde, amarillo y rojo) en un lado
-            de la tablilla, y los 2 LED del semáforo peatonal (verde y rojo) en el otro lado.<br>
-            4. Conectamos las patitas
-            largas de los 5 LED a diferentes salidas digitales del Arduino usando cables individuales, agregando una
-            resistencia en cada conexión para evitar que se quemen.<br>
-            5. Colocamos el sensor ultrasónico en la tablilla de
-            conexiones inferior y unimos sus pines de corriente a las líneas de energía positiva y negativa.<br>
-            6.
-            Conectamos los pines de señal (Trigger y Echo) del sensor ultrasónico hacia las entradas digitales
-            programadas en la tarjeta Arduino.<br>
-            7. Insertamos el zumbador en la tablilla y conectamos su cable positivo a
-            una salida de la tarjeta que permita regular la fuerza del sonido.<br>
-            8. Unimos las patitas cortas de todos los
-            LED y el cable negativo del zumbador a la línea de tierra común con cables negros.<br>
-            9. Conectamos la batería
-            de 9 voltios al Arduino para encender todo el sistema y revisar la sincronización de las luces y el
-            sonido.<br><br>
-        </p>
-        <p class="introduccion">
-            Esquema del circuito<br><br></p>
-        <div >
-            <img class="imagen" src="https://raw.githubusercontent.com/kalixd000/Modelo-3d-Circuito/main/cicuitoex.png">
-        </div>
-        <p class="introduccion">
-            <br><br>Resultados y mediciones<br><br>
-        </p>
-        <p>
-            Durante las pruebas de funcionamiento con el circuito de los dos semáforos encendido, registramos los
-            siguientes comportamientos cuando una persona se paraba en el área que cubre el sensor ultrasónico:<br><br>
-            • Caso 1
-            (Semáforo vial en Verde y Peatonal en Rojo): Al detectar la presencia de una persona en la zona del sensor,
-            el zumbador se activa de inmediato con un pitido fuerte y constante. La intensidad se mantiene igual durante
-            toda la luz verde para indicar que los carros están avanzando.<br>
-            • Caso 2 (Semáforo vial en Amarillo y Peatonal
-            en Rojo): Al cambiar el semáforo vial a amarillo con la persona aún en la zona del sensor, el circuito
-            ajusta la energía de la bocina haciendo que el pitido suene mucho más suavecito, funcionando como un aviso
-            de precaución.<br>
-            • Caso 3 (Semáforo vial en Rojo y Peatonal en Verde): Cuando el semáforo vial cambia a rojo,
-            el sonido se apaga por completo. El semáforo peatonal enciende su luz verde, confirmando de manera
-            silenciosa que es seguro cruzar la calle.<br>
-            • Rendimiento eléctrico: Todo el circuito funcionó de manera
-            continua y estable con la batería de 9 voltios, respondiendo al instante ante la presencia del
-            usuario.<br><br>
-        </p>
-        <p class="introduccion">
-            Análisi y discución<br><br>
-        </p>
-        <p>
-        El circuito trabajó de manera correcta al coordinar los dos semáforos con el sensor ultrasónico. El uso del
-        sensor fue una solución efectiva para asegurar que el semáforo peatonal solo emita alertas sonoras cuando
-        realmente hay un peatón esperando en la esquina, evitando generar ruido innecesario en la vía pública.<br>
-        La parte
-        que más se nos complicó como equipo fue armar la maqueta de los semáforos. Como ninguno de nosotros tenía
-        experiencia haciendo trabajos manuales o técnicos de este tipo, al principio nos dio un poco de desconfianza.
-        Sin embargo, nos organizamos para que todos ayudáramos en lo que podíamos y así pudimos terminarla.<br>
-        En la sección
-        electrónica, nos enfocamos en calibrar los códigos del Arduino para asegurar que la diferencia de volumen entre
-        la luz verde vial y la luz amarilla vial fuera bien clara para el usuario, logrando que el pitido en amarillo se
-        escuchara mucho más suave y no tan fuerte como en la fase verde.<br><br>
-        </p>
-        <p class="introduccion">
-            Conclusión<br><br>
-        </p>
-        <p>
-            Con este proyecto logramos terminar con éxito el diseño y el armado del semáforo Inclusem. El circuito de
-            dos semáforos controlados por el sensor funciona bien y demuestra ser una propuesta muy útil para mejorar la
-            seguridad en las esquinas, ayudando a que las personas que no ven bien o que van distraídas sepan
-            exactamente cuándo deben quedarse en la acera.<br>
-            Hacer este proyecto fue todo un reto porque tuvimos que
-            organizarnos entre las tareas y los trabajos de las otras materias de la escuela. A veces nos sentimos un
-            poco cansados o estresados por el tiempo, pero ver el resultado final nos hace sentir muy orgullosos de lo
-            que logramos juntos. Aprendimos mucho sobre electrónica, pero sobre todo aprendimos a trabajar en equipo, a
-            apoyarnos cuando algo no nos salía y a tener paciencia para resolver los problemas.<br><br>
-        </p>
-        
-        <footer>
+        -Alejandro: Mi experiencia durante este proyecto fue muy positiva, ya que aprendí cosas nuevas. Por ejemplo,
+        comprendí mejor el funcionamiento de un circuito y los materiales necesarios para elaborarlo.<br><br>
+
+        -Marlene: En mi experiencia haciendo este proyecto, diría que fue un reto un poco difícil, ya que hubo momentos
+        en los que además de trabajar en el proyecto también tenía que cumplir con tareas y trabajos de la escuela. A
+        veces era complicado organizar el tiempo y mantener todo al día, especialmente cuando había muchas cosas por
+        hacer al mismo tiempo. Sin embargo, a pesar del cansancio y el estrés que en ocasiones sentí, creo que todo el
+        esfuerzo realmente valió la pena.<br><br>
+
+        Tal vez el resultado no sea perfecto, pero aun así me siento
+        orgullosa tanto de mi trabajo como del esfuerzo de mis compañeros. Considero que todos aportamos algo importante
+        para que este proyecto pudiera realizarse y llegar hasta el resultado final. Además de aprender sobre el tema
+        del proyecto, también aprendí un poco más sobre el trabajo en equipo, la responsabilidad y la paciencia.<br><br>
+
+        Debo decir que una de las partes que más se me complicó fue ayudar con la maqueta, ya que no tengo muchos
+        conocimientos sobre ese tipo de trabajos manuales o técnicos. Aun así, traté de contribuir de la mejor manera
+        posible y apoyar en todo lo que pude. Aunque al principio me sentía un poco insegura, poco a poco fui intentando
+        participar más para ayudar al equipo.<br><br>
+
+        Sin duda, esta experiencia me dejó muchos aprendizajes y buenos recuerdos. Espero que en el futuro pueda volver
+        a participar en un proyecto parecido o incluso ayudar a mejorar este mismo proyecto, ya que siento que siempre
+        hay nuevas ideas y cosas que se pueden aportar.<br><br>
+
+        -Armando: En mi experiencia realizando este circuito, reforcé significativamente mis conocimientos sobre
+        programación, así como el ensamblaje y funcionamiento de Arduino y cada uno de sus componentes. Considero que
+        este proyecto representó una gran oportunidad de aprendizaje y una experiencia muy valiosa que me servirá como
+        base para futuros trabajos y desarrollos tecnológicos.<br><br>
+
+        El proceso de creación del circuito se llevó a cabo principalmente mediante prueba y error, lo que nos permitió
+        analizar distintas soluciones, corregir fallas y mejorar continuamente el funcionamiento del proyecto hasta
+        obtener el resultado esperado. Gracias a esta experiencia, llegamos a la conclusión de que este tipo de temas
+        resultan muy interesantes y enriquecedores, tanto en el ámbito académico como en el práctico.<br><br>
+
+        Además, este proyecto despertó aún más mi interés por la electrónica y la programación, por lo que me gustaría
+        en un futuro tener la oportunidad de volver a participar y trabajar en proyectos similares, donde pueda seguir
+        aprendiendo, desarrollando nuevas habilidades y adquiriendo más experiencia en el área tecnológica.<br><br>
+
+
+        -Daniela: El proceso de
+        la página web fue tedioso porque jamás había hecho una y con falta de experiencia y un montón de tutoriales
+        empecé a programar poco a poco, había opciones mucho más sencillas, pero yo ya había empezado por hacerlo en
+        HTML
+        en visual estudio asesorándome de vez en cuando con los profesores.<br>
+        Una de las cosas más difíciles de programas fue el CSS pues es una de las cosas más complejas por que necesitas
+        sincronizar la información con el estilo visual, que es lo que ve el usuario, por mi parte la página web la eh
+        hecho sola, pero solo la programación puesto a que todo el contenido es una variación de todos los comentarios
+        en conjunto, toda nuestra dedicación y aprendizaje está aquí y si bien posiblemente cabe la posibilidad de no
+        ganar la experiencia nadie nos la quita, todo nuestro aprendizaje nadie nos lo quita fue divertido, frustrante y
+        tedioso participar en este concurso tanto desde la planificación como el proceso, para ustedes los lectores tal
+        vez no sea la cosa más “wow”, pero para nosotros fueron muchas horas de esfuerzo y agotamiento.
+        <br><br>
+
+        Con mucha gratitud les damos las gracias por esta gran oportunidad, fue divertida y un gran reto que superamos
+        en equipo. Este fue nuestro proyecto INCLUSEM y esperamos que les sea de su agrado.
+
+    </p2>
+
+    <footer>
         <p>&copy; Cecyte Playas de Tijuana. Todos los derechos reservados</p>
     </footer>
 </body>
